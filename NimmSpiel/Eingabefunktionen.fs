@@ -1,4 +1,4 @@
-﻿module Eingabe
+﻿module Eingabefunktionen
 
 open System
 
@@ -9,15 +9,15 @@ open System
 let startwertHolen untereGrenze obereGrenze infoText =
     Console.Clear()
     printfn infoText
-    printfn "Bitte geben Sie eine Zahl zwischen %i und %i..." untereGrenze obereGrenze
+    printfn "Bitte geben Sie eine Zahl zwischen %i und %i ein..." untereGrenze obereGrenze
 
     let eingabeString = Console.ReadLine()
     let eingabeNumber = Int32.Parse(eingabeString)
     let mutable tmpWert = 0
 
-    if eingabeNumber <= untereGrenze
+    if eingabeNumber < untereGrenze
     then printfn "Der Wert muss größer %i sein !" untereGrenze
-    elif eingabeNumber >= obereGrenze
+    elif eingabeNumber > obereGrenze
     then printfn "Der Wert muss kleiner %i sein !" obereGrenze
     else tmpWert <- eingabeNumber
 

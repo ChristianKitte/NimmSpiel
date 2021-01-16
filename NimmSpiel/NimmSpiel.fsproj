@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Funktionen.fs" />
+    <Compile Include="Hilfsfunktionen.fs" />
+    <Compile Include="Eingabefunktionen.fs" />
+    <Compile Include="Programmwerte.fs" />
+    <Compile Include="Programmlogik.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
