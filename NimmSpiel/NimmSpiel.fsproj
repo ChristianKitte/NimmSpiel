@@ -10,6 +10,7 @@
     <Compile Include="Eingabefunktionen.fs" />
     <Compile Include="Programmwerte.fs" />
     <Compile Include="Programmlogik.fs" />
+    <Compile Include="AllesInEinerDatei.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
