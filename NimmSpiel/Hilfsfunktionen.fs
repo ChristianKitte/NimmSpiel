@@ -3,7 +3,10 @@
 open System
 
 /// Gibt die dritte Stelle eines dreier Tupels wieder
-let first (a, _, c) = a
+let first (a, _, _) = a
+
+/// Gibt die zweite Stelle eines dreier Tupels wieder
+let second (_, b, _) = b
 
 /// Gibt die dritte Stelle eines dreier Tupels wieder
 let third (_, _, c) = c
