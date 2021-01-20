@@ -39,6 +39,6 @@ Bei dem Quelltext handelt es sich um ein Visual Studio Projekt und kann somit di
 [***AllesInEinerDatei.fs***](https://github.com/ChristianKitte/NimmSpiel/blob/master/NimmSpiel/AllesInEinerDatei.fs) den gesammten Quelltext in nur 
 einer Datei. Damit es nicht zu Problemen mit dem anderen Quelltext kommt, ist der gesammte Inhalt auskommentiert.
 
-Im Order [***Spiel***](https://github.com/ChristianKitte/NimmSpiel/tree/master/Spiel) ist eine Ausgabe des Spiels sammt EXE enthalten. Diese sollte 
+Im Ordner [***Spiel***](https://github.com/ChristianKitte/NimmSpiel/tree/master/Spiel) ist eine Ausgabe des Spiels sammt EXE enthalten. Diese sollte 
 ausführbar sein. Hierzu am besten den gesammten Ordner downloaden und
 im Anschluß die EXE ausführen. 
