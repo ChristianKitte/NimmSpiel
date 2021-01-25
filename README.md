@@ -1,3 +1,5 @@
+![Build Status](https://advancedsoftwaretechnik.beta.teamcity.com/app/rest/builds/buildType:id:NimmSpiel_Build/statusIcon)
+
 # Implementierung eines einfachen Zahlenspiels zum Erlernen von F#.
 
 (Die hier enthaltenen Angaben sind zum Teil auch als  [***PDF***](https://github.com/ChristianKitte/NimmSpiel/blob/master/EA11%20Funktionale%20Programmierung%202.pdf)
