@@ -28,9 +28,10 @@ let main argv =
 
     System.Console.Clear()
 
-    if finalerPunktestand < 0
-    then printfn "Der Spieler %s ist unter Null gekommen und hat verloren!" sieger
-    else printfn "Der Gewinner ist %s!" sieger
+    if finalerPunktestand < 0 then
+        printfn "Der Spieler %s ist unter Null gekommen und hat verloren!" sieger
+    else
+        printfn "Der Gewinner ist %s!" sieger
 
     printfn "(zum beenden ENTER drücken)"
     let tmp = System.Console.ReadLine()
